@@ -1,0 +1,17 @@
+name: Build
+on: push
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: Install vsce
+        run: |
+          npm i -g vsce
+      - name: Package
+        run: |
+          vsce package
