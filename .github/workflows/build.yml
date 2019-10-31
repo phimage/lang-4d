@@ -11,7 +11,7 @@ jobs:
           fetch-depth: 1
       - name: Install vsce
         run: |
-          npm i -g vsce
+          npm i vsce
       - name: Package
         run: |
           vsce package
