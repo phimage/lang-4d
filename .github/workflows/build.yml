@@ -14,4 +14,4 @@ jobs:
           npm i vsce
       - name: Package
         run: |
-          ./vsce package
+          ./node_modules/vsce/out/vsce package
