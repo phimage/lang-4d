@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/ayoubserti/lang-4d.svg)](https://travis-ci.org/ayoubserti/lang-4d)
+[![travis][travis-shield]][travis-url]
+[![build][build-shield]][build-url]
+
 # lang-4d README
 
 VSCode extension for 4D syntax highlighting.
@@ -20,3 +22,9 @@ It only apply to `.4dm` file.
 
 **Enjoy**
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[travis-shield]: https://travis-ci.org/ayoubserti/lang-4d.svg
+[travis-url]: https://travis-ci.org/ayoubserti/lang-4d
+[build-shield]: https://github.com/phimage/lang-4d/workflows/Build/badge.svg
+[build-url]: https://github.com/phimage/lang-4d/actions?workflow=Build
