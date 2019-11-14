@@ -26,5 +26,5 @@ It only apply to `.4dm` file.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [travis-shield]: https://travis-ci.org/ayoubserti/lang-4d.png
 [travis-url]: https://travis-ci.org/ayoubserti/lang-4d
-[build-shield]: https://github.com/phimage/lang-4d/workflows/Build/badge.svg
+[build-shield]: https://github.com/phimage/lang-4d/workflows/build/badge.svg
 [build-url]: https://github.com/phimage/lang-4d/actions?workflow=Build
